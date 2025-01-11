@@ -20,7 +20,7 @@ table{
     width:33%;
     font-size:14px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2em;
+    font-size: 1em;
     color:  rgb(255, 196, 0);
     font-weight: bold;
 }
@@ -31,7 +31,7 @@ table{
     width:33%;
     font-size:14px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 .overview-table-name {
