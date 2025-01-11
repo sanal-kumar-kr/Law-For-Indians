@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensures the body always covers the full height of the viewport */
+    background-image: url(../images/LFI7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Keeps the background proportional and covers the screen */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.navbar-toggler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none !important;
+    background-color: transparent !important; 
+    padding: 0.5rem;
+    box-shadow: none !important; 
+    outline: none; 
+    cursor: pointer;
+}
+
+
+.line-bar {
+    background-color: white;
+    height: 5px;
+    width: 40px;
+    margin: 4px 0;
+    transition: all 0.3s ease; /* Adds smooth animation */
+}
+
+.navbar-toggler:hover .line-bar {
+    background-color: lightgray; /* Optional: Changes color on hover */
+}
+.Login-btn{
+    background-color: orange !important;
+    display: inline-block !important;
+    width: 10em;
+    font-size: 20px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: bold !important;
+}
+.logo{
+    width: 10em;
+}
+
+.list-group-item{
+    background: linear-gradient(to right,rgba(127, 125, 125, 0.686),rgba(255, 166, 0, 0.714)) !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color:white !important;
+    font-weight: bold;
+}
+.title-law{
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+}
+footer{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    position: sticky;
+    background-color:  rgba(255, 166, 0, 0.259) ;
+}
+.footer-title{
+    color: rgb(255, 196, 0);
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.quick-links a,.social-media a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: white !important;
+    font-weight: bold;
+}
+.description{
+    color:white !important;
+    text-align: justify;
+    font-weight: bold
+
+}
+.form-outline{
+    background:linear-gradient(to right,rgba(255, 166, 0, 0.151),rgba(255, 255, 255, 0.301));
+    padding: 20px;
+    border-radius: 10px;
+}
+.submit-btn{
+    font-size: 1.2rem !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder !important;
+    color: white;
+}
+.form-title,.data-title{
+    font-size: 4em;
+    color: white !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.form-floating label{
+    color: orange;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
