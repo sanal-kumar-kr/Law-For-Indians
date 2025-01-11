@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%; /* Ensures the body always covers the full height of the viewport */
-    background-image: url(../images/LFI7.jpg);
+    background-image: url(./LFI7.jpg);
     background-repeat: no-repeat;
     background-size: cover; /* Keeps the background proportional and covers the screen */
     background-position: center; /* Centers the background image */
