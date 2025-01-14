@@ -8,7 +8,7 @@ body, html {
     background-position: center; /* Centers the background image */
     background-attachment: fixed; /* Keeps the background fixed while scrolling */
 }
-html { font-size: calc(0.5em + 0.5vw); }
+/* html { font-size: calc(0.5em + 0.5vw); } */
 
 .navbar {
     background-color: transparent !important;
