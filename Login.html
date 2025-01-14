@@ -45,13 +45,13 @@
                         <div class="form-outline mt-3  mx-auto">
                             <div class="form-wrapper">
                                 <h1 class=" text-center form-title">Login</h1>
-                                <form action="" method="post">
+                                <form action="" method="post" id="loginForm">
                                     <div class="form-floating mb-3 mt-3">
-                                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="username">
                                         <label for="floatingInput">Email address</label>
                                       </div>
                                       <div class="form-floating mt-4 password-container">
-                                        <input type="password" class="form-control" id="floatingPassword1" placeholder="Password">
+                                        <input type="password" class="form-control" id="floatingPassword1" placeholder="Password" name="password">
                                         <label for="floatingPassword">Password</label>
                                         <i class="fa fa-eye-slash toggle-password" id="togglePassword1"></i>
                                     </div>
@@ -125,9 +125,11 @@
            
         </footer>
       </section>
+      <script src="jquery.validate.min.js"></script>
       <script type="module">
-        import {togglepassword} from "./components.js" 
+        import {togglepassword,loginValidation} from "./components.js" 
         togglepassword();
+        loginValidation();
       </script>
     <script src="./popper.min.js"></script>
     <script src="./bootstrap.bundle.min.js"></script>
