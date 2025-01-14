@@ -21,39 +21,60 @@
                 </span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ms-auto me-5 fs-6">
-                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home"></i>Home</a></li>
-                <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-info-circle"></i> About</a></li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fas fa-user-plus"></i>Register
-                  </a>
-                  <ul class="dropdown-menu fs-6 fw-bold">
-                    <li><a class="dropdown-item" href="user.html"><i class="fas fa-users ml-2"></i>Public</a></li>
-                    <li><a class="dropdown-item" href="Register.html"><i class="fas fa-balance-scale"></i>Advocate</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item "><a class="nav-link btn Login-btn" href="Login.html"><i class="fas fa-sign-in-alt"></i>Login</a></li>
-            </ul>
+                <ul class="navbar-nav ms-auto me-5 fs-6">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-info-circle"></i> About</a></li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-user-plus"></i>Register
+                      </a>
+                      <ul class="dropdown-menu fs-6 fw-bold">
+                        <li><a class="dropdown-item" href="user.html"><i class="fas fa-users ml-2"></i>Public</a></li>
+                        <li><a class="dropdown-item" href="Register.html"><i class="fas fa-balance-scale"></i>Advocate</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item "><a class="nav-link btn Login-btn" href="Login.html"><i class="fas fa-sign-in-alt"></i>Login</a></li>
+                </ul>
             </div>
         </div>
     </nav>
     <section class="content-wrapper ">
         <div class="container-fluid">
+          
                     <div class="container">
-                        <div class="form-outline mt-3  mx-auto">
+                        <div class="form-outline mt-3 mx-auto">
                             <div class="form-wrapper">
-                                <h1 class=" text-center form-title">Login</h1>
+                                <h1 class=" text-center form-title fs-1">Advocate</h1>
                                 <form action="" method="post">
                                     <div class="form-floating mb-3 mt-3">
                                         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                        <label for="floatingInput">Email address</label>
+                                        <label for="floatingInput">User name</label>
+                                      </div>
+                                    <div class="form-floating mb-3 mt-3">
+                                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                        <label for="floatingInput fs-4">Email address</label>
                                       </div>
                                       <div class="form-floating mt-4">
-                                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                                        <label for="floatingPassword">Password</label>
+                                        <input type="text" class="form-control" id="floatingPassword" placeholder="contact">
+                                        <label for="floatingPassword">Contact</label>
                                     </div>
-                                    <i class="fa fa-eye-slash">E</i>
+                                    <div class="form-floating mt-4">
+                                        <input type="number" class="form-control" id="floatingPassword" placeholder="contact">
+                                        <label for="floatingPassword">License number</label>
+                                    </div>
+                                    <div class="form-floating mt-4">
+                                        <input type="text" class="form-control" id="floatingPassword" placeholder="contact">
+                                        <label for="floatingPassword">Specialization</label>
+                                    </div>
+                                    <div class="form-floating mt-4">
+                                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+
+                                        <label for="floatingPassword">Enter Password</label>
+                                    </div>
+                                      <div class="form-floating mt-4">
+                                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                        <label for="floatingPassword">Confirm Password</label>
+                                    </div>
                                      <div class="mt-4 text-center ">
                                         <button type="submit" class="btn btn-warning text-white submit-btn">Submit</button>
                                      </div>
@@ -61,6 +82,7 @@
                             </div>
                         </div>
                     </div>
+             
         </div>
       </section>
       <section class="footer mt-5">

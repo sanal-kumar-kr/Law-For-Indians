@@ -21,11 +21,19 @@
                 </span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto me-5">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Viewusers.html">Users</a></li>
-                    <li class="nav-item"><a class="nav-link btn Login-btn" href="Login.html">Login</a></li>
+                <ul class="navbar-nav ms-auto me-5 fs-6">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-info-circle"></i> About</a></li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-user-plus"></i>Register
+                      </a>
+                      <ul class="dropdown-menu fs-6 fw-bold">
+                        <li><a class="dropdown-item" href="user.html"><i class="fas fa-users ml-2"></i>Public</a></li>
+                        <li><a class="dropdown-item" href="Register.html"><i class="fas fa-balance-scale"></i>Advocate</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item "><a class="nav-link btn Login-btn" href="Login.html"><i class="fas fa-sign-in-alt"></i>Login</a></li>
                 </ul>
             </div>
         </div>

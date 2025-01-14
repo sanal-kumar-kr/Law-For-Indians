@@ -8,9 +8,14 @@ body, html {
     background-position: center; /* Centers the background image */
     background-attachment: fixed; /* Keeps the background fixed while scrolling */
 }
+html { font-size: calc(0.5em + 0.5vw); }
 
 .navbar {
     background-color: transparent !important;
+    position: sticky;
+    top: 1;
+    z-index: 1;
+    transition: all 0.3s ease;
 }
 
 .nav-link {
@@ -74,7 +79,7 @@ footer{
     align-items: center;
     height: 600px;
     position: sticky;
-    background-color:  rgba(255, 166, 0, 0.259) ;
+    background-color:  rgba(255, 166, 0, 0.378) ;
 }
 .footer-title{
     color: rgb(255, 196, 0);
@@ -97,8 +102,9 @@ footer{
 
 }
 .form-outline{
+    max-width: 40rem;
     background:linear-gradient(to right,rgba(255, 166, 0, 0.151),rgba(255, 255, 255, 0.301));
-    padding: 20px;
+    padding: 3rem;
     border-radius: 10px;
 }
 .submit-btn{
@@ -115,6 +121,5 @@ footer{
 }
 .form-floating label{
     color: orange;
-    font-size: 1.2rem;
     font-weight: bolder;
 }
