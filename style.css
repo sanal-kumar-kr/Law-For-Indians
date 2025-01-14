@@ -8,7 +8,7 @@ body, html {
     background-position: center; /* Centers the background image */
     background-attachment: fixed; /* Keeps the background fixed while scrolling */
 }
-/* html { font-size: calc(0.5em + 0.5vw); } */
+html { font-size: calc(0.5em + 0.5vw); }
 
 .navbar {
     background-color: transparent !important;
@@ -122,4 +122,18 @@ footer{
 .form-floating label{
     color: orange;
     font-weight: bolder;
+}
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-container .toggle-password {
+    position: absolute;
+    right: 10px; 
+    cursor: pointer;
+    color: #000;
+    font-size: 1.2rem;
+    z-index: 10;
 }
