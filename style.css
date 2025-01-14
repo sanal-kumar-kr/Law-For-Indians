@@ -79,10 +79,10 @@ footer{
     align-items: center;
     height: 600px;
     position: sticky;
-    background-color:  rgba(255, 166, 0, 0.378) ;
+    background-color:  rgba(255, 166, 0, 0.611) ;
 }
 .footer-title{
-    color: rgb(255, 196, 0);
+    color: white;
     font-size: 2rem;
     text-align: center;
     font-weight: bolder;
@@ -119,7 +119,7 @@ footer{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
-.form-floating label{
+.form-floating label,label{
     color: orange;
     font-weight: bolder;
 }
@@ -141,4 +141,22 @@ footer{
     color: red;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+}
+.Login-using p{
+ font-family: 'Times New Roman', Times, serif;
+ color: orange;
+}
+.accounts button{
+    width: 10rem;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+.forgot-password a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }

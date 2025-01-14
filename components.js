@@ -62,6 +62,9 @@ const advocateValidation=()=>{
                 minlength: 5,
                 maxlength: 15,
             },
+            profile:{
+                required:true
+            },
             email: {
                 required: true,
                 email: true,
@@ -96,6 +99,9 @@ const advocateValidation=()=>{
                 required: "Please enter username",
                 minlength: "Name must be at least 5 characters long",
                 maxlength: "Name must be at most 15 characters long",
+            },
+            profile:{
+                required:"Please Upload Your Profile"
             },
             email: {
                 required: "Please provide an email",
